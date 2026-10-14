@@ -1,0 +1,13 @@
+[package]
+name = "lm75-guide"
+version = "0.1.0"
+edition = "2021"
+description = "Учебный драйвер датчика температуры LM75 на embedded-hal 1.0"
+license = "MIT OR Apache-2.0"
+rust-version = "1.75"
+
+[dependencies]
+embedded-hal = "1.0.0"
+
+[dev-dependencies]
+embedded-hal-mock = { version = "0.11.1", default-features = false, features = ["eh1"] }
